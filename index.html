@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/b2c3e95b-b7b5-4bb7-a883-f4bfc7472fb7/80a8277e-14eb-4192-83f7-45c27cd0652b/US-en-20240805-POP_SIGNUP_TWO_WEEKS-perspective_WEB_99b9a7c9-7791-4a48-b335-09e8ee246500_medium.jpg);
+            background-size: cover;
+            background-position: top center;
+        }
+        #heading {
+            background: rgba(0, 0, 0, 0.6)
+        }
+        #heading div {
+            width: 75%;
+            display: flex;
+            justify-content: space-between;
+            margin: 0 auto;
+        }
+
+        #heading .h1 {
+            padding: 15px;
+            font-size: 30px;
+            text-transform: uppercase;
+        }
+        #heading .netflix-cabecalho {
+            color: red;
+            text-decoration: none;
+            font-family: sans-serif;
+        }
+        #heading .h2 {
+            padding: 15px;
+            font-size: 15px;
+            text-transform: uppercase;
+        }
+        #heading .button-entrar {
+            background-color: red;
+            font-size: 20px;
+            border: none;
+        }
+        #heading .entrar {
+            padding: 5px;
+            color: white;
+            text-decoration: none;
+            font-size: 15px;
+            text-transform: uppercase;
+        }
+        #heading .select-linguagem {
+            padding: 5px;
+            background-color: rgba(0, 0, 0, 0.5);
+            border: none;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header id="heading">
+        <div>
+            <h1 class="h1">
+                <a href="#" class="netflix-cabecalho">Netflix</a>
+            </h1>
+            <h2 class="h2">
+                <button class="button-entrar">
+                    <a href="#" class="entrar">Entrar</a>
+                </button>
+                <select class="select-linguagem">
+                    <option lang="pt" label="Português" value="pt-BR" selected>Português</option>
+                </select>
+            </h2>
+        </div>
+    </header>
+</body>
+</html>
